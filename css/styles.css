@@ -1,0 +1,502 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow-wrap: break-word;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    word-wrap: break-word;
+    text-align: center;
+    /* background-image: url("headerB.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: #00303fef;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0;
+    background-color: #f4f9f9;
+   
+}
+
+.navpos{
+
+    position: relative;
+}
+
+.skills h2{
+
+    width: 80%;
+    margin: 40px auto;
+}
+
+a{
+    text-decoration: none;
+    color: #a3d8f4;
+    transform-style: preserve-3d;
+transition: 0.4s;
+}
+
+a:hover{
+
+    color: #f4f9f9;
+}
+
+div nav{
+
+    background-color: #7579e7;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 1px 5px 6px #a3d8f4;
+    
+}
+
+
+nav li{
+
+    display: inline-block;
+    padding: 1%;
+    margin: 0 6%;
+    text-decoration: none;
+    
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Satisfy','Open Sans', sans-serif ;
+
+    
+
+}
+
+.menu{
+
+    display: none;
+    margin: 30px 0;
+    position: absolute;
+    right: 2%;
+    
+}
+
+
+p{
+    line-height: 2;
+}
+
+header{
+
+    position: relative;
+    top: 90px;
+    
+    color:#7579e7;
+    padding: 5%;
+    font-family: 'Satisfy', cursive;
+    
+
+   
+    
+}
+
+header p{
+    font-size: 2.5rem;
+    
+}
+
+header h3{
+
+    font-family: 'Arizonia',Satisfy,'Open Sans', sans-serif;
+    
+
+    font-size: 3.5rem;
+}
+h2{
+
+    font-family:'Open Sans', sans-serif;
+}
+#img{
+
+    
+   
+    box-sizing: border-box;
+    width: 100%;
+  
+    
+    
+}
+
+.description{
+   
+    width: 15%;
+}
+
+.afterHeader{
+
+    overflow-wrap: break-word;
+    
+    background-color: #f4f9f9;
+}
+
+
+hr{
+
+    
+    border: 5px  #00303fef;
+    border-style: dotted;
+    border-bottom: 0;
+    width: 5%;
+    margin: 25px auto 40px auto;
+    /* margin-top: 25px;
+    margin-bottom: 40px; */
+}
+
+.profile p{
+
+
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.profile{
+
+    background-color:  #00303fef;
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    font-size: 20px;
+   
+
+}
+
+
+.skills{
+
+    padding: 7%;
+    background-color:  #f4f9f9;}
+
+.skill-row{
+
+        width: 80%;
+        margin: 30px auto;
+        
+       font-size: 10px;
+        text-align: left;
+        position: relative;
+
+}
+
+.skill-rowp1{
+
+         padding: 0;
+      width: 60%;
+      position: relative;
+      left: 35%;
+        font-size: 1.5rem;
+        text-align: left;
+
+}
+
+.skill-rowp2{
+
+         padding: 0;
+         width: 60%;
+       position: relative;
+       left: 0;
+       
+        font-size: 1.5rem;
+        text-align: left;
+
+}
+
+.skills h2{
+
+        font-size:2rem;
+        
+        
+
+}
+
+.skillsh31{
+
+        width: 50%;
+       
+        font-size:1.5rem;
+        position: relative;
+        left: 35%;
+        
+        
+
+}
+
+.skillsh32{
+
+        width: 50%;
+        margin-top: 15%;
+        font-size:1.5rem;
+        position: relative;
+        left: 0;
+        top: 70%;
+        
+       
+        
+        
+
+}
+
+
+
+.skill-rowimg1{
+
+    width: 20%;
+    position: absolute;
+    left: 0%;
+
+    margin: 0 30px 0 auto;
+    
+    
+}
+
+.skill-rowimg2{
+
+    width: 20%;
+    position: absolute;
+    right: 5%;
+
+    margin:  0 auto;
+    
+}
+
+
+.contact-me{
+
+
+}
+
+.btn{
+
+    background-color: #a3d8f4;
+    outline: 0px;
+    width: 120px;
+    margin-top: 10%;
+   padding: 5px;
+   line-height: 2;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #6165d4;
+
+}
+
+.btn a{
+
+    font-weight: bold;
+    font-size: .75rem;
+    color:#00303fef;
+    font-family: 'Open Sans';
+}
+
+
+.bottom-container{
+
+    padding: 1%;
+    margin-top: 10%;
+    background-color: #6165d4;
+    
+    line-height: 2;
+}
+
+.bottom-container div{
+
+    width: 70%;
+    padding: 2%;
+    margin: auto;
+}
+
+.bottom-container a img{
+
+    width:20%
+}
+.bottom-container a{
+
+    margin: 0 30px 0 30px;
+    font-size: 1.10rem;
+}
+
+.bottom-container p{
+
+    color: darkgray;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 710px){
+
+    *{
+        box-sizing: border-box;
+        
+    }
+
+
+
+    nav li{
+
+        
+        display:block;
+        /* display: none; */
+        padding: 1%;
+        /* margin:  5%; */
+        /* overflow: hidden; */
+        text-decoration: none;
+        color: #a3d8f4;
+        font-size: 1.25rem;
+        font-weight: bold;
+        font-family: 'Satisfy','Open Sans', sans-serif ;
+    
+        
+    
+    }
+
+    header{
+
+        position: relative;
+        top: 1%;
+        color:#7579e7;
+        padding: 5%;
+        font-family: 'Satisfy', cursive;
+        
+        
+    
+       
+        
+    }
+    
+    header p{
+        font-size: 1rem;
+        
+    }
+    
+    header h3{
+    
+        font-family: 'Arizonia',Satisfy,'Open Sans', sans-serif;
+        
+    
+        font-size: 1.5rem;
+    }
+
+    .menu{
+
+        display: block;
+    margin-top: 3px;
+    position: absolute;
+    right: 3%;
+    width: 8%;
+   
+
+    }
+
+    #logo{
+
+        display: none;
+    }
+    
+    .profile {
+       
+        font-size: 13px;
+    }
+
+    .skills h2 {
+            font-size: 19.5px;
+        }
+
+
+        
+        
+.skillsh31 {
+           
+            font-size: .9rem;
+            
+}
+       
+
+.skillsh32 {
+        
+            font-size: .9rem;
+        
+}
+
+.skill-rowp1 {
+    
+    font-size: .75rem;
+    
+}
+
+#listMenu{
+
+    visibility: hidden;
+}
+
+.skill-rowp2 {
+    
+    font-size: .75rem;
+    
+}
+
+.skill-rowimg1 {
+    width: 25%;
+}
+
+
+.skill-rowimg2 {
+    width: 30%;
+}
+
+.skills {
+    padding: 0%;
+    padding-top: 2%;
+
+}
+
+
+.bottom-container div {
+    width: 90%;
+
+}
+
+.bottom-container div a{
+   font-size: .6rem;
+
+}
+
+.btn {
+    background-color: #a3d8f4;
+    outline: 0px;
+    width: 90px;
+    margin-top: 10%;
+    padding: 3px;
+    line-height: 2;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 1p
+}
+
+.btn  a{
+    font-size: .4rem;
+}
+
+.bottom-container p{
+   font-size: .5rem;
+
+}
+
+
+#listMenu{
+
+    margin: 0%;
+    visibility: visible;
+    /* visibility: collapse; */
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+}
